@@ -1,0 +1,63 @@
+<html lang="en">
+          <head>
+            <meta charset="utf-8">          
+            <title>Html Generated</title>
+            <meta name="description" content="Figma htmlGenerator">
+            <meta name="author" content="htmlGenerator">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+            
+            <style>
+              /*
+                Figma Background for illustrative/preview purposes only.
+                You can remove this style tag with no consequence
+              */
+              body {background: #0b1d32; }
+            </style>
+                      
+          
+          </head>
+          
+          <body>
+
+            <div class=e46_2>
+              <div  class="e46_3"></div>
+              <span  class="e46_4">Image Encryption</span>
+              <span  class="e46_18">Using Hamiltonian Path Algorithm</span>
+              <div  class="e46_20"></div>
+              <div  class="e46_21"></div>
+              <span  class="e46_26">Upload Image to be Encrypted</span>
+            
+
+                <!-- <span  class="e46_27">Upload Image</span> -->
+              <form action="/predict" method="POST" enctype="multipart/form-data">
+                  <div class=e46_32>
+                  <input type="file" name="file" id="upload" hidden/>
+                <label for="upload">Upload</label>
+              </div>
+              
+              <img class="image1" src="{{img1}}"/>
+              <div class=e46_32_1>
+                
+                <input type="submit"  id="subb" hidden/>
+
+                <label for="subb">Encrypt</label>
+
+              </div>
+              <img class="image2" src="{{img2}}"/>
+        
+            </form>
+
+
+              <div class=e46_33>
+                <span  class="e46_30">Encrpyt</span>
+              </div>
+              <div class=e46_34>
+                
+                <span  class="e46_31">Decrypt</span>
+              </div>
+            </div>
+          </body>
+          </html>
